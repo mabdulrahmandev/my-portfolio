@@ -65,18 +65,6 @@ const Header = () => {
                 About
               </button>
             </li>
-            <li>
-              <button
-                onClick={() =>
-                  document.getElementById("about").scrollIntoView({
-                    behavior: "smooth",
-                  })
-                }
-                className="hover:text-gray-400 cursor-pointer"
-              >
-                Blogs
-              </button>
-            </li>
           </ul>
         </nav>
 
@@ -153,18 +141,6 @@ const Header = () => {
                 className="hover:text-gray-400 cursor-pointer"
               >
                 About
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={() =>
-                  document.getElementById("about").scrollIntoView({
-                    behavior: "smooth",
-                  })
-                }
-                className="hover:text-gray-400 cursor-pointer"
-              >
-                Blogs
               </button>
             </li>
 

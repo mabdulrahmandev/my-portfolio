@@ -3,17 +3,14 @@ import {
   FaHome,
   FaUser,
   FaPhone,
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaYoutube,
+  FaGithub,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white text-center p-6">
       <div className="flex justify-center space-x-6 mb-4">
-        {/* Navigation Links */}
         <a
           href="#home"
           className="flex items-center space-x-2 hover:text-teal-400"
@@ -38,43 +35,26 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-center space-x-4 mb-4">
-        {/* Social Media Icons */}
         <a
-          href="https://www.facebook.com"
+          href="https://github.com/mabdulrahmandev"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-teal-400"
         >
-          <FaFacebook size={24} />
+          <FaGithub size={24} />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.linkedin.com/in/abdul-rahman-819964373/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-teal-400"
         >
-          <FaInstagram size={24} />
-        </a>
-        <a
-          href="https://www.twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-teal-400"
-        >
-          <FaTwitter size={24} />
-        </a>
-        <a
-          href="https://www.youtube.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-teal-400"
-        >
-          <FaYoutube size={24} />
+          <FaLinkedin size={24} />
         </a>
       </div>
 
       <p className="text-sm">
-        © {new Date().getFullYear()} Your Name. All Rights Reserved.
+        © {new Date().getFullYear()} Abdul Rahman. All Rights Reserved.
       </p>
     </footer>
   );

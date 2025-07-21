@@ -1,33 +1,59 @@
+// src/data/content.js
 export const content = {
   name: "Abdul Rahman",
-  title: "Frontend Developer",
+  title: "Full-Stack JavaScript Developer",
   profileImage: "/images/logo.webp",
+
   aboutTitle: "I'm Abdul Rahman.",
-  aboutTitle2: "I'm a Developer",
-  aboutLocation: "in Pakistan.",
-  about:
-    "Lorem ipsum dolor sit amet consectetur. At libero sit nec tincidunt eu at semper. Pharetra duis ipsum laoreet amet sem imperdiet cras feugiat. Lacinia feugiat duis pellentesque et nec ipsum est.",
-  skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS"],
+  aboutTitle2: "I build web & mobile apps",
+  aboutLocation: "based in Pakistan.",
+  about: `
+  I'm a JavaScript developer who turns ideas into fast, accessible products.
+  On the web I reach for React + Next.js, on mobile for React Native, and on
+  the server for Node/Express—all typed, tested, and shipped through GitHub-
+  driven CI/CD. I sweat the details of performance and clean code so users
+  (and future devs) stay happy.
+`.trim(),
+
+  skills: [
+    "HTML5",
+    "CSS3 / Sass",
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "React Native",
+    "Node.js",
+    "Express.js",
+    "Tailwind CSS",
+    "Redux",
+    "REST / GraphQL",
+    "Git",
+    "GitHub Actions",
+    "Figma",
+  ],
+
   projects: [
     {
-      title: "Project 1",
+      title: "Homematchx",
       description: "Description of project 1.",
-      link: "https://github.com/yourusername/project1",
+      link: "https://homematchx.com/",
       image: "/images/project1.png",
     },
     {
-      title: "Project 2",
+      title: "Algomnia",
       description: "Description of project 2.",
-      link: "https://github.com/yourusername/project2",
+      link: "https://algomnia.com/",
       image: "/images/project2.png",
     },
     {
-      title: "Project 3",
+      title: "No Contact Send",
       description: "Description of project 3.",
-      link: "https://github.com/yourusername/project2",
+      link: "https://nocontactsend.com/",
       image: "/images/project3.png",
     },
   ],
+
   contact: {
     title: "Got a project in",
     title2: "mind?",
@@ -36,42 +62,42 @@ export const content = {
 
 import {
   FaCode,
+  FaTools,
+  FaMobileAlt,
+  FaSyncAlt,
   FaPencilRuler,
-  FaHeadphones,
-  FaGamepad,
-  FaCamera,
-  FaBullhorn,
+  FaRocket
 } from "react-icons/fa";
 
 export const services = [
   {
     icon: <FaCode className="text-teal-400" size={40} />,
     title: "Web Development",
-    description: "Blog, E-Commerce",
+    description: "Next.js • Headless CMS • E-commerce",
+  },
+  {
+    icon: <FaTools className="text-teal-400" size={40} />,
+    title: "Site Maintenance",
+    description: "Bug fixes • Security • Performance",
+  },
+  {
+    icon: <FaMobileAlt className="text-teal-400" size={40} />,
+    title: "App Development",
+    description: "iOS & Android • Hybrid/Native",
+  },
+  {
+    icon: <FaSyncAlt className="text-teal-400" size={40} />,
+    title: "App Maintenance",
+    description: "Feature updates • Version upgrades",
   },
   {
     icon: <FaPencilRuler className="text-teal-400" size={40} />,
-    title: "UI/UX Design",
-    description: "Mobile App, Website Design",
+    title: "UI / UX Design",
+    description: "Wireframes • Prototypes • Design systems",
   },
   {
-    icon: <FaHeadphones className="text-teal-400" size={40} />,
-    title: "Sound Design",
-    description: "Voice Over, Beat Making",
-  },
-  {
-    icon: <FaGamepad className="text-teal-400" size={40} />,
-    title: "Game Design",
-    description: "Character Design, Props & Objects",
-  },
-  {
-    icon: <FaCamera className="text-teal-400" size={40} />,
-    title: "Photography",
-    description: "Portrait, Product Photography",
-  },
-  {
-    icon: <FaBullhorn className="text-teal-400" size={40} />,
-    title: "Advertising",
-    description: "Marketing Campaigns, Digital Advertising",
-  },
+    icon: <FaRocket className="text-teal-400" size={40} />,
+    title: "Performance Optimization",
+    description: "Lighthouse audits • SEO core vitals",
+  }
 ];

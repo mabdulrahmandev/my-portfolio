@@ -29,7 +29,7 @@ const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center mt-4 text-teal-400 font-semibold hover:text-teal-300"
+                className="inline-flex items-center cursor-pointer mt-4 text-teal-400 font-semibold hover:text-teal-300"
               >
                 View Work
                 <FaArrowRight className="ml-2" />
