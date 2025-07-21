@@ -66,6 +66,7 @@ const Contact = () => {
     }
     return () => clearTimeout(timer)
   }, [submitSuccess, submitError])
+
   return (
     <section
       id="contact"
@@ -80,12 +81,12 @@ const Contact = () => {
           <img
             src="images/contact-illustration.png"
             alt="Contact Illustration"
-            className="w-64 h-80"
+            className="w-64 h-80 mx-auto"
           />
         </div>
       </div>
 
-      <div className="lg:w-1/2 bg-black rounded-lg p-8 shadow-lg">
+      <div className="lg:w-1/2 bg-black rounded-lg p-0 lg:p-8 shadow-lg w-full max-w-md mx-auto">
         <form onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 gap-6">
             <div>

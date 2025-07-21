@@ -54,6 +54,41 @@ export const content = {
     },
   ],
 
+  faqData: [
+    {
+      question: "What is your process for starting a project?",
+      answer: "I start by understanding your goals and requirements through discussions and research. Once I have a clear vision, I create a detailed project plan, followed by wireframing and designing. After approval, I move on to development and testing, and finally, deployment and maintenance.",
+    },
+    {
+      question: "Do you provide ongoing support after the project is completed?",
+      answer: "Yes, I offer ongoing support after the project is completed. This includes fixing bugs, adding new features, and ensuring the project stays up-to-date with the latest technologies.",
+    },
+    {
+      question: "How long does it take to complete a project?",
+      answer: "The timeline varies depending on the complexity and scope of the project. A basic web app could take a few weeks, while more complex applications may take a few months. I ensure to provide an estimated timeline upfront after understanding your requirements.",
+    },
+    {
+      question: "What is the cost of your services?",
+      answer: "The cost depends on the scope of the project, including its size, complexity, and specific requirements. I offer competitive pricing and will provide a quote after discussing your project in detail.",
+    },
+    {
+      question: "Do you work with clients outside of Pakistan?",
+      answer: "Yes, I work with clients globally. Communication is primarily handled through email, video calls, and project management tools to ensure smooth collaboration, regardless of your location.",
+    },
+    {
+      question: "What is the difference between hybrid and native app development?",
+      answer: "A hybrid app is built using web technologies like JavaScript and works on both iOS and Android, while a native app is developed specifically for one platform using platform-specific languages (Swift for iOS, Kotlin for Android). Hybrid apps are faster to develop and maintain, while native apps offer better performance and access to platform-specific features.",
+    },
+    {
+      question: "How do you handle version control?",
+      answer: "I use Git and GitHub for version control. This allows me to track changes, collaborate with other developers, and ensure that the code is always backed up and organized. It also enables efficient deployment through continuous integration pipelines.",
+    },
+    {
+      question: "What do you mean by 'performance optimization'?",
+      answer: "Performance optimization involves improving the speed, responsiveness, and overall performance of your web or mobile application. I focus on minimizing load times, optimizing code, improving SEO scores, and conducting regular audits to ensure your app delivers the best user experience.",
+    },
+  ],
+
   contact: {
     title: "Got a project in",
     title2: "mind?",

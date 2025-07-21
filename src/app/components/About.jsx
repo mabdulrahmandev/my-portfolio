@@ -9,14 +9,14 @@ const About = () => {
       className="min-h-screen flex flex-col md:flex-row justify-between items-center bg-black text-white pb-6 pt-0 px-4"
     >
       <div className="md:w-1/2 space-y-4">
-        <h1 className="text-6xl font-medium">
+        <h1 className="text-4xl md:text-6xl font-medium">
           Hello, <span className="text-pink-500">{content.aboutTitle}</span>
         </h1>
-        <h2 className="text-6xl font-semibold">{content.aboutTitle2}</h2>
-        <h1 className="text-6xl font-medium">{content.aboutLocation}</h1>
-        <p className="text-gray-400 text-lg">{content.about}</p>
+        <h2 className="text-4xl md:text-6xl font-semibold">{content.aboutTitle2}</h2>
+        <h1 className="text-4xl md:text-6xl font-medium">{content.aboutLocation}</h1>
+        <p className="text-gray-400 text-base md:text-lg">{content.about}</p>
 
-        <div className="mt-6 flex space-x-4">
+        <div className="mt-6 flex flex-col md:flex-row space-y-4 md:space-x-4">
           <button
             onClick={() =>
               document.getElementById("contact").scrollIntoView({
@@ -40,11 +40,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-10 md:mt-0 md:w-1/2 flex justify-end">
+      <div className="mt-10 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
         <img
           src="images/profile.png"
           alt="Creative Designer"
-          className="max-h-[522px] max-w-md rounded-2xl object-cover"
+          className="max-h-[400px] md:max-h-[522px] max-w-[350px] md:max-w-md rounded-2xl object-cover"
         />
       </div>
     </section>
