@@ -16,7 +16,7 @@ const About = () => {
         <h1 className="text-4xl md:text-6xl font-medium">{content.aboutLocation}</h1>
         <p className="text-gray-400 text-base md:text-lg">{content.about}</p>
 
-        <div className="mt-6 flex flex-col md:flex-row space-y-4 md:space-x-4">
+        <div className="mt-6 flex flex-col md:flex-row space-y-4 sm:space-y-0 md:space-x-4">
           <button
             onClick={() =>
               document.getElementById("contact").scrollIntoView({
